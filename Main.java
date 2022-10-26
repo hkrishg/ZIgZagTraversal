@@ -13,9 +13,10 @@ class TreeNode {
 class Main {
 
   // Problem Statement #
-  // Given a binary tree, populate an array to represent its level-by-level
-  // traversal. You should populate the values of all nodes of each level from
-  // left to right in separate sub-arrays.
+  // Given a binary tree, populate an array to represent its zigzag level order
+  // traversal. You should populate the values of all nodes of the first level
+  // from left to right, then right to left for the next level and keep
+  // alternating in the same manner for the following levels.
 
   private static List<List<Integer>> leverOrderTraversal(TreeNode root) {
     List<List<Integer>> res = new ArrayList<>();
